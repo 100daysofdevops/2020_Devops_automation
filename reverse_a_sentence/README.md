@@ -16,7 +16,7 @@ For example
       "Python example"
 
 **Solution**: Again we can follow multiple approach to solve this problem
-1: Take Python built-in functions like split() and reversed()
-2: More feasible solution during interview situation is to loop over the text and extract the words
+1. Take Python built-in functions like split() and reversed()
+2. More feasible solution during interview situation is to loop over the text and extract the words
 
 
