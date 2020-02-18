@@ -1,10 +1,10 @@
 **Problem**: Given a string of words, reverse all the words. For example
 
-```Given
-    "Welcome to Python"
+Given
+   ```"Welcome to Python"```
 
 Return
-     "Python to Welcome"```
+    ```"Python to Welcome"```
 
 NOTE: As part of this exercise, please remove all leading and trailing whitespaces. For example
     ``` "  Python example "
