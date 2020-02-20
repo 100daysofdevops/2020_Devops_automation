@@ -9,6 +9,3 @@ def seq_search(arr,ele):
             pos += 1
 
     return found
-
-arr=[1,2,3,4,5]
-print(seq_search(arr,5))
