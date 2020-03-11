@@ -7,6 +7,12 @@ pipeline {
       }
     }
 
+    stage('my-script') {
+      steps {
+        sh 'echo $NAME'
+      }
+    }
+
   }
   environment {
     Name = 'Prashant'
