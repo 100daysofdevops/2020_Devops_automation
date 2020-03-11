@@ -8,8 +8,19 @@ pipeline {
     }
 
     stage('my-script') {
-      steps {
-        sh 'echo $Name'
+      parallel {
+        stage('my-script') {
+          steps {
+            sh 'echo $Name'
+          }
+        }
+
+        stage('parallel_stage') {
+          steps {
+            sh 'echo "This is parallel stage"'
+          }
+        }
+
       }
     }
 
