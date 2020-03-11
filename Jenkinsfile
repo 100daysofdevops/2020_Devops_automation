@@ -9,7 +9,7 @@ pipeline {
 
     stage('my-script') {
       steps {
-        sh 'echo $NAME'
+        sh 'echo $Name'
       }
     }
 
