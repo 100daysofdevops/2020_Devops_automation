@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('myrun') {
+      steps {
+        sh 'echo "hello world"'
+      }
+    }
+
   }
 }
