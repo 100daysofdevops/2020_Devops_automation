@@ -21,6 +21,12 @@ pipeline {
           }
         }
 
+        stage('archiveartifacts') {
+          steps {
+            archiveArtifacts(artifacts: 'mt-test.zip', fingerprint: true)
+          }
+        }
+
       }
     }
 
